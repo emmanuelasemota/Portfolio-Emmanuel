@@ -1,0 +1,160 @@
+/* COMMON */
+
+body{
+    font-family: "mono-space", sans-serif;
+}
+
+.font-primary{
+    color: #00abae;
+}
+
+.tittle-icon{
+    font-size: 20px; 
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+}
+
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a .font-black{
+    color: black;
+}
+
+
+/* ABOUT */
+
+
+
+
+#about{
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+
+}
+
+#about img{
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#about .name{
+    font-size: 20px;
+}
+
+#about .vocation{
+    font-size: 15px;
+    color: rgb(9, 9, 9);
+    margin-bottom: 10px;
+}
+
+#about .skills{
+    font-size: 14px;
+    color: rgb(0, 45, 98);
+    margin-bottom: 10px;
+}
+
+#about .Email{
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+#about .icons{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a{
+    color: rgba(0, 0, 0, 0.937);
+}
+
+/* PROJECT */
+
+#project{
+    margin: 60px auto;
+    width: 80%;
+}
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+    width: 100%;
+}
+
+#project .card-title{
+    font-weight: bold;
+}
+
+.navbar{
+    align-items: center;
+}
+
+.dropbtn{
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: hidden;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+    z-index: 1;
+    padding: 0 18px;
+    overflow: hidden;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inherit;
+}
+
+.dropdown img{
+    max-width: 50px;
+}
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content{
+    display: inherit;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: #3e8e41;
+}
+
+@media screen and (min-width: 400px) {
+   div.dropdown{
+    visibility: hidden;
+    float: left;
+   } 
+}
+
+.active, .collapsible:hover{
+    background-color: #ccc;
+}
+
